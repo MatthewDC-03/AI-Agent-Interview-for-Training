@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
-const RootLayout = ({children}: {children: ReactNode}) => {
+const RootLayout = async ({children}: {children: ReactNode}) => {
     return(
         <div className='root-layout' >
             <nav className='flex gap-3' >
